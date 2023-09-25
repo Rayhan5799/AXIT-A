@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+/* glover css start */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a, a :hover{
+    text-decoration: none;
+}
+/* glover css end */
+
+
+/* header css code start */
+.header-section .navbar{
+    background: #000 !important;
+    height: 68px;
+}
+.header-section .nav-link{
+    color: #cccccc !important;
+    margin-left: 20px;
+}
+.header-section .navbar a img{
+    width: 90px;
+}
+/* header css code end */
+
+
+/* banner css code Start */
+.banner-section{
+    width: 100%;
+    height: 92vh;
+    background: url(../img/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-section .content{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-section .content h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-section .content h1 span{
+    color: #ff8b38;
+    font-weight: 300;
+}
+.banner-section .content h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-right: 200px;
+}
+.banner-section .content .line{
+    width: 76px ;
+    height: 2px ;
+    margin: 40px 0px;
+    background: #fff ;
+}
+.banner-section .content p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    padding-right: 200px;
+}
+.banner-section .content .btn{
+    background: transparent;
+    border-radius: 0px;
+    border: 2px solid #fff;
+    padding: 12px 46px;
+    margin-top: 46px;
+}
+.banner-section .content .btn:hover{
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+}
+.banner-section .main-form{
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-section .main-form .card{
+    margin-left: 166px;
+}
+.banner-section .main-form .card .card-header{}
+.banner-section .main-form .card .card-header h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
+    padding-top: 6px;
+}
+.banner-section .main-form .card .card-header h3 span{
+    color: #ff8b38;
+}
+.banner-section .main-form .card .card-body{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.banner-section .main-form .card .form-group{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.banner-section .main-form .card .form-control{
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0px;
+    padding: 0px 20px;
+    outline: 0px;
+    color: #cccccc;
+    padding-bottom: 10px;
+}
+.banner-section .main-form .card .card-footer{
+    background: #ff8b38;
+}
+.banner-section .main-form .card .card-footer input{
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+/* banner css code end */
+
+
+/* social css code start */
+.social-setion{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+.social-setion .title{
+    width: 100%;
+}
+.social-setion .title h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px 0px 6px;
+}
+.social-setion .title p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.social-setion .icon-box{
+    width: 100%;
+}
+.social-setion .icon-box ul{
+    margin: 0px;
+    padding: 0px;
+}
+.social-setion .icon-box li{
+    list-style: none;
+    display: inline;
+    margin-left: 10px
+}
+.social-setion .icon-box a{
+    margin-left: 60px;
+    color: #cccccc;
+}
+.social-setion .icon-box a:hover{
+    color: #ff8b38;
+}
+.social-setion .icon-box a i{
+    font-size: 50px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+/* social css code end */
+
+
+/* feature css code start */
+.feauter-section{
+    background: #f5f5f5;
+    width: 100%;
+   
+}
+.feauter-section .feature-inner{
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.feauter-section .nav{
+    padding-right: 60px;
+}
+.feauter-section .nav button{
+    width: 110px;
+    height: 110px;
+    background: #333333;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { 
+    background: #ff8b38;
+}
+.feauter-section .feature-inner .tab-pane h3{
+    font-weight: 700;
+}
+.feauter-section .feature-inner .tab-pane .top{
+    margin-top: 50px;
+    font-size: 14px;
+    margin: 52px 0px 0px;
+}
+.feauter-section .feature-inner .tab-pane .bttom{
+    margin-top: 20px;
+    font-size: 14px;
+    margin: 22px 0px 0px;
+}
+.feauter-section .feature-inner .tab-pane a{
+    margin: 50px 0px 0px;
+    padding: 12px 50px;
+    background: #ff8b38;
+    border: none;
+}
+.feauter-section .feature-inner .right{
+    height: 340px;
+    display: table-cell;
+    vertical-align: middle;
+}  
+.feauter-section .feature-inner .right img{
+    margin-left: 110px;
+}  
+/* feature css code end */
+
+
+/*  sub list css code start */
+.sub-list-section{
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.sub-list-section .right{
+    width: 470px;
+    margin: auto;
+}
+.sub-list-section .right .title {
+    width: 470px;
+    margin: auto;
+}
+.sub-list-section .right .title h4{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.sub-list-section .right .title .line{
+    width: 66px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 30px 0px;
+}
+.sub-list-section .right .title p{
+    font-size: 14px;
+}
+.sub-list-section .right .bottom .icon{
+    width: 64px;
+}
+.sub-list-section .right .bottom .icon .icon-inner{
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+}
+.sub-list-section .right .bottom .icon .icon-inner i{
+    font-size: 26px;
+    border: 2px solid #ff8b38;
+    background: transparent;
+    color: #ff8b38;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 56px;
+    margin-bottom: 50px;
+}
+.sub-list-section .right .bottom .title{
+    margin-top: 46px;
+}
+.sub-list-section .right .bottom .title h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sub-list-section .right .bottom .title p{
+    font-size: 14px;
+}
+/*  sub list css code end */
+
+
+/*  standard list css code start */
+.standard-section {
+    width: 100%;
+    background: #f5f5f5;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.standard-section .left{
+    width: 490px;
+}
+.standard-section .left .title{}
+.standard-section .left .title h4{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.standard-section .left .title .line{
+    width: 66px;
+    height: 2px;
+    background: #ff8b38;
+    margin: 30px 0px;
+}
+.standard-section .left .title p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+/*  standard list css code end */
+
+
+/*  Awesome css code start */
+.awesome-section{
+    width: 100%;
+    padding: 100px 0px;
+    text-align: center;
+}
+.awesome-section .title{
+    text-align: center;
+}
+.awesome-section .title h4{
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+}
+.awesome-section .title .line{
+    width: 66px;
+    height: 2px;
+    background: #ff8b38;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.awesome-section .title p{
+    font-size: 14px;
+}
+.awesome-section .icon-box{
+    width: 100%;
+    display: flex;
+}
+.awesome-section .icon-box .icon-box-inner{
+    display: flex;
+}
+.awesome-section .icon-box .icon-box-inner .icon{}
+.awesome-section .icon-box .icon-box-inner .icon i{
+    font-size: 26px;
+    border: 2px solid #ff8b38;
+    background: transparent;
+    color: #ff8b38;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 56px;
+    margin: 80px 0px 20px;
+}
+.awesome-section .icon-box .icon-box-inner .list{}
+.awesome-section .icon-box .icon-box-inner .list h4{
+    margin-top: 15px;
+    padding: 0px 30px;
+    
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.awesome-section .icon-box .icon-box-inner .list p{
+    padding: 21px 30px 40px;
+    font-size: 14px;
+}
+/*  Awesome css code end */
+
