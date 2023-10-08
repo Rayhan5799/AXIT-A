@@ -137,6 +137,9 @@ p{
     border: none;
     color: #fff;
 }
+.banner-section .main-form .card .form-control:focus{
+    box-shadow: none;
+ }
 /* banner css code end */
 
 
