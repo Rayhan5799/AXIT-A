@@ -94,6 +94,7 @@ p{
 }
 .banner-section .main-form .card{
     margin-left: 166px;
+    border: none;
 }
 .banner-section .main-form .card .card-header{}
 .banner-section .main-form .card .card-header h3{
@@ -123,6 +124,10 @@ p{
     outline: 0px;
     color: #cccccc;
     padding-bottom: 10px;
+}
+.banner-section .main-form .card .form-control:hover{
+   
+
 }
 .banner-section .main-form .card .card-footer{
     background: #ff8b38;
@@ -264,6 +269,7 @@ p{
 }
 .sub-list-section .right .bottom .icon{
     width: 64px;
+    margin-bottom: -15px;
 }
 .sub-list-section .right .bottom .icon .icon-inner{
     width: 100%;
@@ -280,7 +286,7 @@ p{
     text-align: center;
     border-radius: 50%;
     line-height: 56px;
-    margin-bottom: 50px;
+
 }
 .sub-list-section .right .bottom .title{
     margin-top: 46px;
@@ -321,6 +327,7 @@ p{
     margin-top: 30px;
     font-size: 14px;
 }
+
 /*  standard list css code end */
 
 
@@ -582,6 +589,13 @@ p{
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
+    transition: .5s;
+}
+.stylish-section .button a:hover{
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+    transition: .5s;
+    
 }
 /* stylish css end */  
 
@@ -618,7 +632,7 @@ p{
 .contact-section .form input{
     display: block;
     width: 100%;
-    padding: 50px 22px 0px;
+    padding: 50px 10px 0px;
     border: none;
     border-bottom: 2px solid #999999;
     font-size: 16px;
@@ -680,4 +694,4 @@ p{
     color: #999999;
     text-align: center;
     padding-top: 20px;
-
+}
