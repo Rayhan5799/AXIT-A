@@ -1,0 +1,335 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .banner-section {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 0px 0px 50px;
+    }
+    .banner-section .content {
+        padding: 50px 0px 0px;
+        height: 0;
+    }
+    .banner-section .content h2 {
+        padding: 20px 0px 2px;
+    }
+    .banner-section .content .line {
+        margin: 36px auto;
+    }
+    .banner-section .content p {
+        padding-right: 0; 
+    }
+    .banner-section .content .btn {
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+    .banner-section .main-form {
+        height: 0;
+    }
+    .banner-section .main-form {
+        height: 0;
+        width: 50% !important;
+    }
+    .banner-section .main-form .card {
+        margin: 90px auto 40px;
+        width: 80% !important;
+    }
+    .social-setion {
+        text-align: center;
+        padding: 0px 15px;
+    }
+    .social-setion .icon-box a {
+        margin-left: 0;
+        color: #cccccc;
+    }
+    .social-setion .icon-box a i {
+        font-size: 29px;
+        height: 0;
+        padding: 5px 0px 30px;
+    }
+    .feauter-section .feature-inner {
+        padding: 50px 15px;
+    }
+    .feauter-section .nav {
+        padding-right: 8px;
+    }
+    .feauter-section .nav button {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 6px;
+    }
+    .feauter-section .feature-inner .tab-pane .top {
+        margin: 20px 0px 0px;
+    }
+    .feauter-section .feature-inner .tab-pane .bttom {
+        margin: 16px 0px 0px;
+    }
+    .feauter-section .feature-inner .tab-pane a {
+        margin: 30px 0px 0px;
+        padding: 10px 30px;
+    }
+    .feauter-section .feature-inner .right {
+        display: block;
+        padding: 53px 0px 0px;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .feauter-section .feature-inner .right img {
+        margin: 0;
+        width: 100%;
+    }
+    .sub-list-section {
+        width: 100%;
+        padding: 50px 15px;
+    }
+    .sub-list-section .list-img {
+        width: 100%;
+        margin: auto;
+    }
+    .sub-list-section .list-img img{
+        width: 100%;
+    }
+    .sub-list-section .right {
+        width: 100%;
+        margin: 0;
+    }
+    .sub-list-section .right .title {
+         width: 100%; 
+    }
+    .sub-list-section .right .bottom {
+        padding: 30px 0px 0px;
+    }
+    .sub-list-section .right .bottom .icon {
+        width: 100%;
+        margin-bottom: 6px;
+        display: flex;
+    }
+    .sub-list-section .right .bottom .icon .icon-inner {
+        width: 30%;
+        float: none;
+        margin-right: 0px;
+    }
+    .sub-list-section .right .bottom .title {
+        margin-top: 0;
+    }
+    .standard-section {
+        width: 100%;
+        padding: 50px 15px;
+    }
+    .standard-section .left {
+        width: 100%;
+        margin: 0;
+    }
+    .standard-section .left .title {
+        width: 100%; 
+    }
+    .standard-section .left .title p {
+        margin-top: 20px;
+    }
+    .standard-section .list-img{
+        width: 100%;
+        margin: auto;
+    }
+    .standard-section .list-img img {
+        width: 100%;
+        margin: 45px 0px 0px;
+    }
+    .awesome-section {
+        width: 100%;
+        padding: 50px 15px;
+    }
+    .awesome-section .title h4 {
+        font-size: 28px;
+    }
+    .awesome-section .title p {
+        padding: 0px 20px;
+    }
+    .awesome-section .icon-box {
+        width: 100%;
+        display: block;
+    }
+    .awesome-section .icon-box .icon-box-inner .icon i {
+        margin: 40px 0px 6px;
+    }
+    .awesome-section .icon-box .icon-box-inner .list p {
+        padding: 12px 0px 10px;
+        font-size: 14px;
+    }
+    .Pricing-section {
+        width: 100%;
+        padding: 50px 15px 10px;
+    }
+    .Pricing-section .title {
+        text-align: center;
+        padding-bottom: 70px;
+    }
+    .Pricing-section .title h4 {
+        font-size: 28px;
+        font-family: 'Raleway', sans-serif;
+    }
+    .Pricing-section .title p {
+        padding: 0px 20px;
+    }
+    .Pricing-section .mg{
+        margin: 0px auto 50px;
+        width: 85% ;
+    }
+    .customer-section {
+        width: 100%;
+        padding: 50px 15px 20px;
+    }
+    .customer-section .title h4 {
+        font-size: 28px;
+    }
+    .customer-section .title {
+        text-align: center;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .customer-section .title p {
+        padding: 0px 20px;
+    }
+    .customer-section .c-box .content {
+        width: 88%;
+        margin: 0px auto 40px;
+    }
+    .customer-section .c-box .content p {
+        padding-right: 18px;
+    }
+    .customer-section .c-box {
+        margin: 0px 0px 50px;
+    }
+    .customer-section .side-img{
+        width: 28%;
+        padding: 0px 0px 0px 34px;
+    }
+    .customer-section .side-text{
+        width: 65%;
+        padding: 12px 0px 0px;
+    }
+    .stylish-section {
+        padding: 50px 15px;
+    }
+    .stylish-section .title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .stylish-section .title h4 {
+        font-size: 28px;
+    }
+    .stylish-section .title p {
+        padding: 0px 20px;
+    }
+    .stylish-section .button {
+        padding: 0px 0px 19px;
+    }
+    .stylish-section .button a {
+        padding: 10px 30px;
+    }
+    .contact-section {
+        padding: 50px 15px;
+    }
+    .contact-section .title {
+        padding: 0px 0px 50px;
+    }
+    .contact-section .title h4 {
+        font-size: 28px;
+    }
+    .contact-section .title p {
+        padding: 0px 20px;
+    }
+    .contact-section .form {
+        margin: 0px;
+        width: 80%;
+        margin: auto;
+    }
+    .contact-section .form input {
+        padding: 40px 10px 0px;
+        text-transform: capitalize;
+    }
+    .contact-section .form .message {
+        padding: 46px 10px 100px;
+    }
+    .contact-section .button {
+        margin: auto;
+        width: 46%;
+        padding-top: 60px;
+    }
+    .contact-section .button input {
+        padding: 10px 30px;
+    }
+    .footer-section {
+        background: #000;
+        margin-top: 10px;
+        padding: 8px 15px;
+    }
+    .footer-section .icon-box a {
+        margin-left: 10px;
+    }
+    .footer-section .icon-box a i {
+        font-size: 16px;
+    }
+    
+  }
+  
