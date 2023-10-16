@@ -60,7 +60,11 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
+    .header-section .navbar-toggler {
+        box-shadow: none;
+        border: 0;
+        color: #ff8b38;
+    }
     .banner-section {
         width: 100%;
         height: auto;

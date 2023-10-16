@@ -19,12 +19,12 @@ p{
 /* header css code start */
 .header-section .navbar{
     background: #000 !important;
-    height: 68px;
 }
 .header-section .nav-link{
     color: #cccccc !important;
     margin-left: 20px;
 }
+.header-section {}
 .header-section .navbar a img{
     width: 90px;
 }
