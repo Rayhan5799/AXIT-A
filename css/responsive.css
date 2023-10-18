@@ -64,25 +64,29 @@
         box-shadow: none;
         border: 0;
         color: #ff8b38;
+        border: 1px solid #ff8b38;
+        padding: 7px 10px;
     }
     .banner-section {
         width: 100%;
         height: auto;
         text-align: center;
-        padding: 0px 0px 50px;
+        padding: 0px 30px 50px;
     }
     .banner-section .content {
-        padding: 50px 0px 0px;
+        padding: 20px 0px 0px;
         height: 0;
     }
     .banner-section .content h2 {
         padding: 20px 0px 2px;
+        font-size: 20px;
     }
     .banner-section .content .line {
-        margin: 36px auto;
+        margin: 22px auto 24px;
     }
     .banner-section .content p {
         padding-right: 0; 
+        font-size: 14px;
     }
     .banner-section .content .btn {
         padding: 10px 30px;
@@ -95,13 +99,17 @@
         height: 0;
         width: 50% !important;
     }
+    .banner-section .main-form .card .form-group {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
     .banner-section .main-form .card {
-        margin: 90px auto 40px;
-        width: 80% !important;
+        margin: 40px auto 0px;
+        width: 90% !important;
     }
     .social-setion {
         text-align: center;
-        padding: 0px 15px;
+        padding: 0px 30px;
     }
     .social-setion .icon-box a {
         margin-left: 0;
@@ -113,7 +121,7 @@
         padding: 5px 0px 30px;
     }
     .feauter-section .feature-inner {
-        padding: 50px 15px;
+        padding: 50px 30px;
     }
     .feauter-section .nav {
         padding-right: 8px;
@@ -125,14 +133,21 @@
     }
     .feauter-section .feature-inner .tab-pane .top {
         margin: 20px 0px 0px;
+    
     }
+    .feauter-section .feature-inner .tab-pane h3 {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
     .feauter-section .feature-inner .tab-pane .bttom {
         margin: 16px 0px 0px;
     }
-    .feauter-section .feature-inner .tab-pane a {
-        margin: 30px 0px 0px;
-        padding: 10px 30px;
-    }
+.feauter-section .feature-inner .tab-pane a {
+    margin: 30px 0px 0px;
+    padding: 10px 24px;
+    font-size: 14px;
+}
     .feauter-section .feature-inner .right {
         display: block;
         padding: 53px 0px 0px;
@@ -145,7 +160,12 @@
     }
     .sub-list-section {
         width: 100%;
-        padding: 50px 15px;
+        padding: 50px 30px;
+    }
+    .sub-list-section .right .title h4 {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: capitalize;
     }
     .sub-list-section .list-img {
         width: 100%;
@@ -179,7 +199,12 @@
     }
     .standard-section {
         width: 100%;
-        padding: 50px 15px;
+        padding: 50px 30px;
+    }
+    .standard-section .left .title h4 {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: capitalize;
     }
     .standard-section .left {
         width: 100%;
@@ -201,10 +226,10 @@
     }
     .awesome-section {
         width: 100%;
-        padding: 50px 15px;
+        padding: 50px 30px;
     }
     .awesome-section .title h4 {
-        font-size: 28px;
+        font-size: 20px;
     }
     .awesome-section .title p {
         padding: 0px 20px;
@@ -212,6 +237,9 @@
     .awesome-section .icon-box {
         width: 100%;
         display: block;
+    }
+    .awesome-section .icon-box .icon-box-inner .list h4 {
+        font-size: 16px;
     }
     .awesome-section .icon-box .icon-box-inner .icon i {
         margin: 40px 0px 6px;
@@ -241,10 +269,10 @@
     }
     .customer-section {
         width: 100%;
-        padding: 50px 15px 20px;
+        padding: 50px 30px 20px;
     }
     .customer-section .title h4 {
-        font-size: 28px;
+        font-size: 20px;
     }
     .customer-section .title {
         text-align: center;
@@ -253,6 +281,14 @@
     }
     .customer-section .title p {
         padding: 0px 20px;
+    }
+    .Pricing-section .price-table .p-body h2 {
+        color: #fff;
+        font-size: 70px;
+    }
+    .Pricing-section .price-table .p-body h2 span {
+        color: #fff;
+        font-size: 26px;
     }
     .customer-section .c-box .content {
         width: 88%;
@@ -272,15 +308,23 @@
         width: 65%;
         padding: 12px 0px 0px;
     }
+    .customer-section .c-box .info h4 {
+        font-size: 16px;
+        font-weight: 700;
+    }
     .stylish-section {
-        padding: 50px 15px;
+        padding: 50px 30px;
     }
     .stylish-section .title {
         text-align: center;
         padding-bottom: 30px;
     }
     .stylish-section .title h4 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+    .stylish-section .title .line {
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
     .stylish-section .title p {
         padding: 0px 20px;
@@ -289,16 +333,20 @@
         padding: 0px 0px 19px;
     }
     .stylish-section .button a {
-        padding: 10px 30px;
+        padding: 9px 26px;
     }
     .contact-section {
-        padding: 50px 15px;
+        padding: 50px 30px;
     }
     .contact-section .title {
-        padding: 0px 0px 50px;
+        padding: 0px 0px 20px;
     }
     .contact-section .title h4 {
-        font-size: 28px;
+        font-size: 20px;
+    }
+    .contact-section .title .line {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .contact-section .title p {
         padding: 0px 20px;
@@ -317,11 +365,11 @@
     }
     .contact-section .button {
         margin: auto;
-        width: 46%;
+        width: 40%;
         padding-top: 60px;
     }
     .contact-section .button input {
-        padding: 10px 30px;
+        padding: 9px 12px;
     }
     .footer-section {
         background: #000;
